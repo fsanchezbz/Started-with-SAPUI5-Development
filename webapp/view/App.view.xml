@@ -5,9 +5,15 @@
    <Button
       text="Clic to say: Hello, i will learn UI5"
       press=".onShowHello"/>
+    <Input
+      value="{/recipient/name}" 
+      description="Hello {/recipient/name}"
+      valueLiveUpdate="true"
+      width="60%"/>  
 </mvc:View>
 
-
+<!-- value="{/recipient/name}" 
+      take the info from App.controller => OData recipient name -->
 <!-- <mvc:View
    xmlns="sap.m" 
    xmlns:mvc="sap.ui.core.mvc">
