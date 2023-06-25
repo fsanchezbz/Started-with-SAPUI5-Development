@@ -1,0 +1,17 @@
+<mvc:View
+   controllerName="sap.ui.demo.walkthrough.controller.App"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc">
+   <Button
+      text="Clic to say: Hello, i will learn UI5"
+      press=".onShowHello"/>
+</mvc:View>
+
+
+<!-- <mvc:View
+   xmlns="sap.m" 
+   xmlns:mvc="sap.ui.core.mvc">
+   <Text text="I am a View with XML File and SAP library" />
+</mvc:View> -->
+
+<!-- sap.m is a library -->
