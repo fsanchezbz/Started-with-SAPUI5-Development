@@ -12,6 +12,18 @@ sap.ui.define([
 	}).placeAt("content");
 });
 
+// import ComponentContainer from "sap/ui/core/ComponentContainer";
+
+// const componentContainer = new ComponentContainer({
+//   name: "sap.ui.demo.walkthrough",
+//   settings: {
+//     id: "walkthrough"
+//   },
+//   async: true
+// });
+
+// componentContainer.placeAt("content");
+
 
 //function (Text) {
 // 	"use strict";
